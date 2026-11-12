@@ -1,0 +1,6 @@
+*OpenUI *KmManipulation/Job Accounting: Boolean
+*OrderDependency: 10 AnySetup *KmManipulation
+*DefaultKmManipulation: True
+*KmManipulation True: "userdict /KmManipulation get /JobAccounting get (4004) put"
+*KmManipulation False: ""
+*CloseUI: *KmManipulation
